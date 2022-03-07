@@ -43,14 +43,17 @@ header .top{
   margin-bottom: 10px;
 }
 
-header .top img{
+.top .logo{
   height: 50px;
+  width: 140px;
   margin-bottom: 20px;
-  padding-right: 15px;
   border-right: 1px solid rgb(229, 229, 229);
 }
+.logo img{
+  height: 100%;
+}
 
-header li{
+nav ul li{
   display: inline-block;
   text-transform: uppercase;
   list-style: none;
@@ -73,12 +76,13 @@ header li:hover{
   border-radius: 10px;
 }
 
-.jumbotron .overlay{
+.jumbotron .text{
   color: white;
   padding-top: 22%;
   padding-left: 5%;
   padding-right: 40%;
   }
+  
   .text h1{
     font-size: 30px;
   }
